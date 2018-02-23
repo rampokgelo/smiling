@@ -34,9 +34,8 @@
         <button type="submit" class="btn btn-primary btn-block">Submit</button>
       </form>
       <br />
-      <div class="d-flex justify-content-between">
+      <div class="">
         <span><a href="#">Forgot Password</a></span>
-        <span><a href="#">Sign Up</a></span>
       </div>
     </div>
   </div>

@@ -55,3 +55,58 @@
   pointer-events: none;
   opacity: .3;
 }
+.tiket-journey{
+  padding-left: 30px;
+  position: relative;
+  &:before{
+    content: '';
+    display: inline-block;
+    background: $white;
+    width: 3px;
+    height: calc(100% - 75px);
+    position: absolute;
+    left: 9px;
+    top: 10px;
+  }
+  li{
+    position: relative;
+    margin-bottom: ($spacer);
+    &.active{
+      &:before{
+        background: $secondary;
+      }
+    }
+    &:before{
+      content: '';
+      display: inline-block;
+      background: $body-bg;
+      border: solid 3px $white;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: -29px;
+      top: 10px;
+      border-radius: 50%;
+    }
+  }
+}
+.achiev{
+  width: 280px;
+  height: 280px;
+  color: $white;
+  background: $primary;
+  font-size: 4em;
+  font-weight: 700;
+  border-radius: 50%;
+  border: solid 10px (lighten($primary, 10%));
+}
+.sum-achiev{
+  width: 90px;
+  height: 90px;
+  color: $white;
+  background: $gray-600;
+  font-size: 1.8em;
+  font-weight: 700;
+  border-radius: 50%;
+  border: solid 10px $gray-300;
+}
