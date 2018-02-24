@@ -11,13 +11,16 @@
           <div class="text-center">
             <img src="assets/img/sample.jpg" class="img-thumbnail img-150 rounded-circle" />
             <h3 class="mt-2">Citra Rezania</h3>
+            <p>
+              ID123129379123
+            </p>
           </div>
         </div>
 
 
     </div>
     <div class="my-3">
-      <a class="btn btn-outline-dark btn-block" href="home-user.php">Logout</a>
+      <a class="btn btn-outline-dark btn-block" href="index.php">Logout</a>
     </div>
   </div>
   </div>

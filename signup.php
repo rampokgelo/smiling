@@ -14,29 +14,37 @@
       <!-- <h1 class="text-center">Welcome</h1> -->
       <form>
         <div class="form-group">
-          <label class="sr-only">Username</label>
+          <label class="sr-only">Nama</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
               <div class="input-group-text"><i class="fa fa-user"></i></div>
             </div>
-            <input type="text" class="form-control" placeholder="Username">
+            <input type="text" class="form-control" placeholder="Nama">
           </div>
         </div>
         <div class="form-group">
-          <label class="sr-only">Password</label>
+          <label class="sr-only">Email</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fa fa-lock"></i></div>
+              <div class="input-group-text"><i class="fa fa-mail"></i></div>
             </div>
-            <input type="text" class="form-control" placeholder="Password">
+            <input type="text" class="form-control" placeholder="Email">
           </div>
         </div>
-        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        <div class="form-group">
+          <label class="sr-only">Nomor Telepon</label>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text"><i class="fa fa-phone"></i></div>
+            </div>
+            <input type="number" class="form-control" placeholder="Nomor Telepon">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Signup</button>
       </form>
       <br />
-      <div class="d-flex justify-content-between">
-        <span><a href="forgot-pass.php">Forgot Password</a></span>
-        <span><a href="signup.php">Sign Up</a></span>
+      <div class="">
+        <span>Sudah punya akun ? <a href="index.php">Login</a></span>
       </div>
     </div>
   </div>

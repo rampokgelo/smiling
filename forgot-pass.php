@@ -14,29 +14,19 @@
       <!-- <h1 class="text-center">Welcome</h1> -->
       <form>
         <div class="form-group">
-          <label class="sr-only">Username</label>
+          <label class="sr-only">Nomor Telepon</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
               <div class="input-group-text"><i class="fa fa-user"></i></div>
             </div>
-            <input type="text" class="form-control" placeholder="Username">
+            <input type="text" class="form-control" placeholder="Nomor Telepon">
           </div>
         </div>
-        <div class="form-group">
-          <label class="sr-only">Password</label>
-          <div class="input-group mb-2">
-            <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fa fa-lock"></i></div>
-            </div>
-            <input type="text" class="form-control" placeholder="Password">
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        <button type="submit" class="btn btn-primary btn-block">Send</button>
       </form>
       <br />
-      <div class="d-flex justify-content-between">
-        <span><a href="forgot-pass.php">Forgot Password</a></span>
-        <span><a href="signup.php">Sign Up</a></span>
+      <div class="">
+        <span><a href="signup.php">Signup</a></span>
       </div>
     </div>
   </div>
