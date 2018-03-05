@@ -7,6 +7,7 @@
     <a class="navbar-icon" href="myorder.php">
       <span><i class="fas fa-file-alt"></i></span>
       <small>Order Saya</small>
+      <small class="notif">999</small>
     </a>
     <a class="navbar-icon" href="akun.php">
       <span><i class="fa fa-user"></i></span>

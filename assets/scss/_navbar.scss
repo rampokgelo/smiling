@@ -321,8 +321,9 @@
   padding: ($spacer * .25) ($spacer * .5);
   text-align: center;
   color: $gray-800;
+  position: relative;
   span{
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   small{
     font-size: 9px;

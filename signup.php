@@ -26,7 +26,7 @@
           <label class="sr-only">Email</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fa fa-mail"></i></div>
+              <div class="input-group-text"><i class="fa fa-envelope"></i></div>
             </div>
             <input type="text" class="form-control" placeholder="Email">
           </div>
@@ -35,7 +35,7 @@
           <label class="sr-only">Nomor Telepon</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fa fa-phone"></i></div>
+              <div class="input-group-text"><i class="faa fa-phone"></i></div>
             </div>
             <input type="number" class="form-control" placeholder="Nomor Telepon">
           </div>

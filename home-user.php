@@ -25,15 +25,43 @@
           <div class="card-body pb-1">
             <h6 class="card-subtitle mb-2 text-muted">Nomer Tiket</h6>
             <h5 class="card-title">IN123456</h5>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id=""><i class="fa fa-calendar"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Tanggal">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id=""><i class="fa fa-clock"></i></span>
+                </div>
+                <div class="datepicker-input">
+                  <div>
+                    <div class="react-datepicker-wrapper">
+                      <input type="text" class="form-control" placeholder="Jam">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id=""><i class="fa fa-pencil-alt"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Catatan">
+              </div>
+            </div>
+
           </div>
 
-          <div class="input-group input-group-card-b">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id=""><i class="fa fa-calendar"></i></span>
-            </div>
-            <input type="text" class="form-control" placeholder="Tanggal">
-            <input type="text" class="form-control" placeholder="Jam">
-          </div>
+
+
+
       </div>
       <div class="my-3">
         <a href="order-step1.php" class="btn btn-primary btn-block">Lanjut</a>

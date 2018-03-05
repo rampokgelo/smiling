@@ -6,6 +6,7 @@
   bottom: 0;
   z-index: -1;
   @include bg-cover;
+  min-height:100vh;
 }
 
 .brand {
@@ -58,35 +59,44 @@
 .tiket-journey{
   padding-left: 30px;
   position: relative;
-  &:before{
-    content: '';
-    display: inline-block;
-    background: $white;
-    width: 3px;
-    height: calc(100% - 75px);
-    position: absolute;
-    left: 9px;
-    top: 10px;
-  }
   li{
     position: relative;
     margin-bottom: ($spacer);
-    &.active{
-      &:before{
-        background: $secondary;
-      }
-    }
     &:before{
       content: '';
       display: inline-block;
-      background: $body-bg;
-      border: solid 3px $white;
-      width: 20px;
-      height: 20px;
+      background: $white;
+      width: 3px;
+      height: calc(100%);
       position: absolute;
-      left: -29px;
-      top: 10px;
-      border-radius: 50%;
+      left: -20px;
+      top: 30px;
+    }
+    &.active{
+      >.card{
+        &:before{
+          background: $secondary;
+        }
+      }
+    }
+    &:last-child{
+      &:before{
+        display: none;
+      }
+    }
+    >.card{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: $body-bg;
+        border: solid 3px $white;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: -29px;
+        top: 10px;
+        border-radius: 50%;
+      }
     }
   }
 }
@@ -109,4 +119,26 @@
   font-weight: 700;
   border-radius: 50%;
   border: solid 10px $gray-300;
+}
+
+.loader-wrapper{
+  z-index: 9999;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: $white;
+  @extend .d-flex,.justify-content-center,.align-items-center;
+  >.loader-center{
+    @extend .d-flex;
+  }
+}
+.notif{
+  position: absolute;
+  background-color: $red;
+  color: $white;
+  top: 5px;
+  right: -5px;
+  border-radius: 8px;
+  padding:2px 5px;
+  display: inline-block;
 }
